@@ -21,7 +21,7 @@
 			</script>
 			<div class="page__inner">
 				<main class="main main_width-limit">
-					<?php include ("structure/content.php"); ?>
+					<?php include ("structure/content.php"); ?> 
 				</main>
 			</div>
 		</div>
