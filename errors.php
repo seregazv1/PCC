@@ -7,7 +7,7 @@
 </head>
     <body>
         <div class="page-error">
-			<?php 
+			<?php  
 				$status = $_SERVER["REDIRECT_STATUS"];
 				$codes = array(
 					400 => array("400", "Неверный запрос"),
