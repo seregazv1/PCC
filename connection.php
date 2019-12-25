@@ -27,5 +27,5 @@ if ($debug == true) {
 		echo "Успешное подключение!";
 }
 if ($close_link == true)
-	mysqli_close($link);
+	mysqli_close($link); 
 ?>
