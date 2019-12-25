@@ -5,7 +5,7 @@ if (empty($_POST['command'])) exit;
 require_once dirname(__FILE__) . '/connection.php';
 // инициализация выходного массива данных
 $data = array();
-// обработка команд
+// обработка команд 
 switch ($_POST['command']) {
 case 'load-table':
 	$id = empty($_POST['tableID'])? 'menu' : $_POST['tableID'];
