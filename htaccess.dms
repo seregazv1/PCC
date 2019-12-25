@@ -6,7 +6,7 @@ RewriteRule ^([^.]+)$ $1.php [NC,L]
 ErrorDocument 400 /errors.php
 ErrorDocument 401 /errors.php
 ErrorDocument 402 /errors.php
-ErrorDocument 403 /errors.php
+ErrorDocument 403 /errors.php 
 ErrorDocument 404 /errors.php
 ErrorDocument 405 /errors.php
 ErrorDocument 406 /errors.php
