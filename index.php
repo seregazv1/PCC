@@ -3,7 +3,7 @@
 <head>
 <?php include ("structure/head.php");?>
 </head>
-<body>
+<body> 
     <div class="page-wrapper">
 		<div class="sitetoolbar">
 			<?php include ("structure/menu.php");?>
