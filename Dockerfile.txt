@@ -27,7 +27,7 @@ LABEL maintainer="kislovs1998@gmail.com"
 RUN apk update && apk upgrade && apk add --no-cache sqlite
 
 WORKDIR /app
-
+ 
 COPY --from=build /app/razito/publish ./
 
 ENTRYPOINT ["dotnet", "Razito.dll"]
